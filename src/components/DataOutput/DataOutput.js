@@ -1,6 +1,6 @@
 import React from "react";
 import './DataOutput.css';
-import {Rhh, Zhh, Rkz, Zkz, k} from '../../constants'
+import {Rhh, Zhh, Rkz, Zkz, k, U2_ans, cosPhi} from '../../constants'
 
 export const DataOutput = ({arrowTop, s1Open, s2Open}) => {
     const U1 = +(230*(1-((arrowTop - 83) / (257 - 83)))).toFixed(2)

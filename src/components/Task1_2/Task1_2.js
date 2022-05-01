@@ -7,7 +7,7 @@ import { ReferenceBlock } from "../ReferenceBlock/ReferenceBlock";
 import {Zkz, Inom} from '../../constants'
 import schema1 from '../../../public/schema1.png'
 
-export const Task1_2 = () => {
+export const Task1_2 = ({type}) => {
     const [s1Open, setS1Open] = useState(true)
     const [s2Open, setS2Open] = useState(true)
     const arrowBlock = useRef()
@@ -47,7 +47,7 @@ export const Task1_2 = () => {
                 </div>
                 <div className="answer-scheme-container">
                     <img src={schema1} alt="Схема замещения" title="Схема замещения" width="310"/>
-                    <AnswersBlock />
+                    <AnswersBlock type={type} />
                 </div>
             </div>
             <ReferenceBlock />

@@ -1,0 +1,28 @@
+.start-container {
+    padding: 15px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.task-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.tasks-container {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-element {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

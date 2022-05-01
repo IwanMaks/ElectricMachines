@@ -31,6 +31,10 @@
     width: 410px;
 }
 
+.center {
+    justify-content: center;
+}
+
 .answer-elem {
     display: flex;
     align-items: center;
