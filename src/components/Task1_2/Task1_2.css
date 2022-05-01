@@ -1,0 +1,49 @@
+.main-container {
+    padding: 10px 15px;
+}
+
+.ineractive-container {
+    display: flex;
+    align-items: center;
+}
+
+.interactive-info {
+    margin-top: 15px;
+}
+
+.info-reg {
+    display: flex;
+    width: 575px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.answer-scheme-container {
+    display: flex;
+}
+
+.answer-and-data-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-info-wrapper {
+    display: flex;
+}
+
+.emergency {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}

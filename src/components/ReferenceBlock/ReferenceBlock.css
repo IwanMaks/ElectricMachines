@@ -1,0 +1,13 @@
+.reference-container {
+    margin-top: 20px;
+}
+
+.alarm {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reference {
+    font-size: 18px;
+}

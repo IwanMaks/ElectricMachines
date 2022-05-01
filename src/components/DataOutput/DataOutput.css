@@ -1,0 +1,19 @@
+.data-elem {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.data-output {
+    margin-left: 25px;
+}
+
+.value-elem {
+    padding: 3px 3px 3px 24px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin: 0 5px;
+}

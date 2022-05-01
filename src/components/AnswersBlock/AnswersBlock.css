@@ -1,0 +1,78 @@
+.answer-and-data-info {
+    margin-left: 15px;
+}
+
+.data-info {
+    width: 575px;
+    word-break: break-all;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.line-breaker {
+    border-top: 1px solid blue;
+    width: 240px;
+    height: 1px;
+}
+
+.breaker {
+    display: flex;
+    align-items: center;
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 410px;
+}
+
+.answer-elem {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.answer-input {
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: rgb(207, 207, 207);
+    padding: 3px 5px;
+    width: 100px;
+}
+
+.answer-input:disabled {
+    cursor: no-drop;
+}
+
+.check-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.check-button:hover + :not(.disabledButton) {
+    background-color: blue;
+}
+
+.disabledButton {
+    cursor: no-drop;
+}
+
+.wrongAnswer {
+    background-color: red;
+}
+
+.rightAnswer {
+    background-color: green;
+}

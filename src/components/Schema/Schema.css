@@ -1,0 +1,41 @@
+.schema-wrapper {
+    position: relative;
+}
+
+.a {
+    position: absolute;
+    z-index: 10;
+}
+
+.s1Close {
+    top: 49px;
+    left: 282px;
+    cursor: pointer;
+}
+
+.s1Open {
+    top: 36px;
+    left: 285px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.s2Close {
+    top: 143px;
+    left: 868px;
+    transform: rotate(90deg);   
+    cursor: pointer;
+}
+
+.s2Open {
+    top: 147px;
+    left: 856px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.arrow {
+    left: 355px;
+    top: 170px;
+    cursor: pointer;
+}
